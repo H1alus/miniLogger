@@ -32,7 +32,7 @@ int main() {
 ```
 ![alt text](https://i.imgur.com/pVs2ppd.png)
 ### WARNING:
-#### if you once used wprintf() or a call to the functions of miniLogger you will have to use wprintf() and wchar for the whole project.
+#### if you once used, on the output buffer, wprintf() or a call to the functions of miniLogger, you should use wprintf() for the whole project or reset the buffer.
 
 ### LICENSE
 #### The code is distributed under the GNU General Public License V3, for further more information, check the LICENSE file.
